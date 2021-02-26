@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_ProductLayoutPage.cshtml";
+}
+@if (Session["Admin"] == "admin")
+{
+    <h2>Welcome to Admin  </h2>
+}
+else
+{
+    <h2>Welcome to User  </h2>
+}
+
+
